@@ -1,0 +1,94 @@
+.relative{
+    position: relative
+}
+.full-height{
+    height: 100vh;
+}
+.center{
+    position: absolute;
+    top: 40%;
+}
+
+.overlay{
+    background: rgba(34, 34, 34, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.overlayPad{
+    padding: 100px 20px;
+}
+.pan-head{
+    background: #eee;
+    color: #222;
+    padding: 10px;
+}
+.fitted{
+    width: 100%;
+}
+
+.p-4{padding: 10px}
+.m-4{margin: 10px}
+.loadImages{
+    min-height: 55vh;
+    max-height: 62vh;
+    overflow-y: auto;
+    
+    
+}
+
+
+.relative{
+    position: relative;
+}
+
+.img-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-sit{
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+
+
+.flex-tl{
+    position: absolute;
+    right: 0;
+    margin-left: 20px;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+}
+.box:before{
+    content: "";
+    display: block;
+    padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+.contents{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(2, 2, 2, 0.51);
+}
+.truncate {
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.absolute{position: absolute;}

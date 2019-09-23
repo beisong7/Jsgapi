@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Title </title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+<!--	<link rel="stylesheet" href="main.css">-->
+	<link rel="stylesheet" href="style/style.css">
+</head>
+     <body>
+        <div class=" relative full-height">
+         <div class="app">
+             
+         </div>
+          
+           <div class="center">
+                <button class="btn btn-primary pull_images" >get images</button>
+           </div>
+        </div>
+        
+    <script src="jquery.min.js"></script>
+<!--    <script src="main.js"></script>    -->
+    <script src="jsgapi.js"></script>
+    <script>
+        
+        let config = {
+            root : "http://localhost:8000/",
+            mainurl: "api/images/gallery/fetch",
+            next_url : "",
+            domroot : "app",
+            ignition : "pull_images",
+            next_btn : "load_more_img",
+            close_btn : "close_gui",
+            pick_type : "radio",
+            imgAnchor : "loadImages",
+        }
+        new Jsgapi(config);
+    </script>
+	</body>
+</html>

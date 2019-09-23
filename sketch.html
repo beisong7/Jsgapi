@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Title </title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+<!--	<link rel="stylesheet" href="main.css">-->
+	<link rel="stylesheet" href="style/style.css">
+</head>
+     <body>
+        <div class="container relative full-height">
+         <div class="app">
+            <div class='overlay overlayPad'>
+        <div class='container'>
+            <div class='panel panel-info'>
+                <div class='pan-head'>Gallery <span class='close close_gui float-right'>x</span></div>
+                    <div class='panel-body' style='height: 65vh'>
+                        <div class='row loadImages'>
+                            <div class='col-md-3 col-xl-4 col-sm-6 col-xs-6 p-4'><img src='image/pp.jpg' alt='' class='fitted'></div>
+                            
+                            <div class=' col-md-3 col-xl-4 col-sm-6 col-xs-6 p-4 no-padding no-margin shadow-l1'><div class='box no-margin no-padding img-center'><div class='contents'><input type='checkbox' class='selector flex-tl' value='116'><img class='img-sit' src='image/SCN.jpg' alt=''></div></div></div>
+                            
+                            <div class=' col-md-3 col-xl-4 col-sm-6 col-xs-6 p-4 no-padding no-margin shadow-l1'><div class='box no-margin no-padding img-center'><div class='contents'><input type='checkbox' class='selector flex-tl' value='116'><img class='img-sit' src='image/northshore_logo.png' alt=''></div></div></div>
+                            
+                            <div class=' col-md-3 col-xl-4 col-sm-6 col-xs-6 p-4 no-padding no-margin shadow-l1'><div class='box no-margin no-padding img-center'><div class='contents'><input type='checkbox' class='selector flex-tl' value='116'><img class='img-sit' src='" + temproot+"uploads/"+item.url + "' alt=''></div></div></div>
+                        </div>
+                      </div>
+                      <div class='panel-footer'>
+                          <button class='load_more_img btn btn-default'>Load More</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+         </div>
+          
+           <div class="center">
+                <button class="btn btn-primary pull_images" >get images</button>
+           </div>
+        </div>
+        
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+	</body>
+</html>
