@@ -1,7 +1,7 @@
 
 ## About JsG-API
 
-JsG-API is a bootstrap jquery plugin that loads your image gallery. I built it to solve my challenge of using foreign 
+JsG-API is a bootstrap jquery plugin that loads your image gallery. I built it to solve my challenge of using huge php or js packages to do something so little as this. This small project was supported by Laravel's `response()->json($query->paginate($val))` which makes it easy to fetch more data
 
 
 ## How to Use
@@ -21,3 +21,7 @@ let config = {
 }
 new Jsgapi(config);
 ```
+
+## config {what the config does}
+
+- root : points to the root url of ur api
